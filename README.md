@@ -40,10 +40,9 @@ An automated lifecycle tracking pipeline built within ServiceNow Workflow Studio
 
 
 ## What I Learned
-* **Relational Data Mapping:** Gained a solid understanding of how ServiceNow uses "dot-walking" to pull data from a user's profile across completely different tables.
-* **Platform Security & Workflow Drafts:** Learned how ServiceNow manages version control through checking out flows, modifying drafts safely, and publishing them to prevent live errors.
-* **Troubleshooting Automation Blocks:** Developed the skill to identify read-only canvas restrictions and resolve setup dead-ends independently by utilizing system duplication tools.
+* **Table Relationships:** Learned how ServiceNow connects different tables, using "dot-walking" to pull a user's email into an automated process.
+* **Platform Workflow:** Understood how to safely copy, edit, and publish draft flows without breaking active system processes.
+* **Problem Solving:** Learned how to troubleshoot layout restrictions and find workarounds using different menus in Workflow Studio.
 
 ## Corporate Application
-In an enterprise environment, this automation solves a major operational bottleneck. Instead of a tier-1 help desk agent spending 10 minutes manually typing out emails and creating CMDB records for every single employee who gets a new VDI workspace, this pipeline handles it instantly. This eliminates manual copy-paste data errors, keeps the asset database completely accurate in real-time, and lets the help desk focus on closing technical support tickets.
-
+In a real company, this stops the Help Desk from wasting time. Instead of an agent manually creating an asset record and typing out a welcome email every time someone gets a virtual desktop, the system does it instantly. This prevents manual typos, keeps the asset inventory accurate, and lets the Help Desk focus on fixing actual technical problems.
